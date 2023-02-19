@@ -1,5 +1,4 @@
 <?php 
-            // include ("./includes/init.php");
 
 include("includes/header.php"); ?>
         <!-- Navigation -->
@@ -34,29 +33,7 @@ include("includes/header.php"); ?>
         <h1 class="page-header">
             Admin
             <small>Subheading</small>
-            <?php
-
-        //    $results =  User::get_by_id(2);
-          
-        //    $results->username = "dekota";
-           
-        //    $results->delete();
-
-            //  $fotoses = Photos::get_user();
-            // //  $user->username = "bulan";
-            // //  $user->password = "bulan";
-            // //  $user->firstname = "bulan";
-            // //  $user->lastname = "bulan";
-            // //  $user->name = "bulan";
-            // foreach($fotoses as $fotose){
-            //     echo $fotose->description;
-            // }
-            // $root =dirname(__DIR__) ;
-
-            // echo $root;
-
-            //  $user->delete();
-              ?>
+       
         </h1>
         <ol class="breadcrumb">
             <li>

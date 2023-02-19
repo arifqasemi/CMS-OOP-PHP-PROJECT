@@ -2,6 +2,7 @@
 require_once("admin/includes/init.php");
  include("includes/header.php"); 
 
+require_once "admin/includes/comment.php";
 
 $photos = Photos::get_by_id($_GET['photo_id']);
 

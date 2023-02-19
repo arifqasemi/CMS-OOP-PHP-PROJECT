@@ -4,7 +4,7 @@ require_once("admin/includes/init.php");
 <?php
 
 $page = !empty($_GET['page']) ? (int)$_GET['page'] :1;
-$item_per_page = 10;
+$item_per_page = 12;
 $total_item = Photos::count_all();
 
 $pagination = new Pagination($page,$item_per_page,$total_item);
